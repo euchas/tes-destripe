@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "tes-destripe: orbit-track destriping of MGS TES global maps"
+version: 0.1.0
+date-released: 2026-10-12
+license: MIT
+repository-code: "https://github.com/euchas/tes-destripe"
+url: "https://github.com/euchas/tes-destripe"
+authors:
+  - family-names: Valantinas
+    given-names: Adomas
+    orcid: "https://orcid.org/0000-0001-9995-3335"
+    affiliation: "University of Cambridge"
+keywords:
+  - Mars
+  - Mars Global Surveyor
+  - TES
+  - Dust Cover Index
+  - destriping
+  - Fourier filter
+  - PDS3
+  - GeoTIFF
+abstract: >-
+  Removes the orbit-track striping from Mars Global Surveyor Thermal Emission
+  Spectrometer (TES) global maps with a latitude-adaptive directional Fourier
+  filter, reading attached-label PDS3/ISIS2 QUBE products (or any raster) and
+  writing georeferenced GeoTIFFs on the standard Mars equirectangular grid.
